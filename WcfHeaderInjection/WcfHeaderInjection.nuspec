@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>WCFHeaderInjection</id>
+    <version>1.0.0</version>
+    <authors>Domenic Virgilio</authors>
+    <owners>Domenic Virgilio</owners>
+    <licenseUrl>https://github.com/melomenic/wcfheaderinjectionbehavior/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/melomenic/wcfheaderinjectionbehavior</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows injection of custom headers into a WCF endpoint.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>WCF Endpoint Behavior Inject Add Header HTTP UserAgent OAuth</tags>
+  </metadata>
+</package>
