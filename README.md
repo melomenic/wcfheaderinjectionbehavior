@@ -1,7 +1,7 @@
 # WCF Header Injection Endpoint Behavior
-Allows injection of custom headers into a WCF endpoint.
+Allows injection of custom headers into a WCF client endpoint.
 
-Add the following to <system.serviceModel>. Any headers you wish to add should be placed under the headerInjection element. The dll itself should generally be placed in the same folder as your WCF client or service.
+Add the following to <system.serviceModel>. Any headers you wish to add should be placed under the headerInjection element. The dll itself should generally be placed in the same folder as your WCF client.
 
 ```xml
 <extensions>
@@ -24,8 +24,4 @@ Add the following to <system.serviceModel>. Any headers you wish to add should b
 <client>
   <endpoint address="..." behaviorConfiguration="MyServiceBehaviour" name="MyService" />
 </client>
----OR---
-<service>
-  <endpoint address="..." behaviorConfiguration="MyServiceBehaviour" name="MyService" />
-</service>
 ```
